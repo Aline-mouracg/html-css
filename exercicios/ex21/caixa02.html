@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: blueviolet;
+        }
+        header{
+            background-color: rgb(168, 107, 224);
+            padding: 10px;
+            margin: 10px;
+        }
+         nav{
+             background-color: rgb(67, 4, 75);
+             padding: 3px;
+             box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+             
+         }
+
+        main{ 
+            background-color: rgb(211, 187, 235) ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        footer{
+            background-color: rgb(40, 6, 71);
+            color: rgb(252, 247, 247);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            
+        }
+        footer > p{
+            margin:0px ;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+          <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+             <p>
+                 Esportes, politica, musica...
+             </p>         
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis veniam voluptas dolores eveniet autem corporis repellat unde ipsum pariatur optio, minus non in atque illo iusto magni similique harum nisi.</p>
+                <aside>
+                    <p>artigo escrito por José da silva </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+          <p>Desenvolvido pelo curso em video</p>
+    </footer>
+</body>
+</html>
